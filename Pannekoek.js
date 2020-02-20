@@ -12,8 +12,8 @@ Recept: 200gr bloem, 2 eieren, 500ml melk en 50gr boter voor 10 pannekoeken.
 aantalPannekoeken.addEventListener('change', updateValue);
 
 function updateValue(e) {
-  hoeveelheidBloem.textContent = e.target.value*20;
-  hoeveelheidEieren.textContent = e.target.value*0.2;
-  hoeveelheidMelk.textContent = e.target.value*50;
-  hoeveelheidBoter.textContent = e.target.value*5;
+  hoeveelheidBloem.textContent = e.target.value*25;
+  hoeveelheidEieren.textContent = e.target.value*0.25;
+  hoeveelheidMelk.textContent = e.target.value*62.5;
+  hoeveelheidBoter.textContent = e.target.value*6.25;
 };
